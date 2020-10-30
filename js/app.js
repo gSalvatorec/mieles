@@ -1,10 +1,5 @@
 let seccion = document.querySelector('section');
-window.addEventListener('scroll', () => {
-    let valorScroll = window.scrollY,
-        valor = 140 + valorScroll;
 
-    seccion.style.clipPath = "circle(" + valorScroll + "px at center)";
-})
 
 window.addEventListener('DOMContentLoaded', () => {
     ScrollReveal().reveal('.contenido', {
@@ -13,5 +8,12 @@ window.addEventListener('DOMContentLoaded', () => {
         distance: '40rem',
         reset: true,
         delay: 300
+    })
+
+    window.addEventListener('scroll', () => {
+        let valorScroll = window.scrollY,
+            valor = 140 + valorScroll;
+
+        seccion.style.clipPath = "circle(" + valorScroll + "px at center)";
     })
 });

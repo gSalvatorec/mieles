@@ -39,7 +39,7 @@ section video {
     margin-top: 200vh;
     min-height: 100vh;
     background: #fff;
-    padding: 10rem;
+    padding: 10rem 0;
 }
 
 .contenedor:last-of-type {

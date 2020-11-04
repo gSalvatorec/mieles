@@ -46,12 +46,13 @@ img {
     /* margin-top: auto; */
     margin-left: auto;
     margin-right: auto;
-    bottom: 5%;
+    bottom: 15%;
 }
 
 @media(min-width:768px) {
     .logo {
         width: 15%;
+        bottom: 25%;
     }
 }
 

@@ -88,6 +88,8 @@ img {
 .imagen-abejita {
     position: absolute;
     bottom: 0;
-    left: -89%;
-    width: 180%;
+    left: -23%;
+    bottom: 15%;
+    width: 60%;
+    rotate: 28deg;
 }

@@ -81,5 +81,13 @@ img {
     min-height: 100vh;
     width: 100%;
     z-index: 2;
-    background-color: black;
+    background-color: white;
+    position: relative;
+}
+
+.imagen-abejita {
+    position: absolute;
+    bottom: 0;
+    left: -89%;
+    width: 180%;
 }
